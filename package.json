@@ -1,0 +1,33 @@
+{
+  "name": "update-all-the-things",
+  "version": "0.0.1",
+  "description": "Updates all npm dependencies in a project at once. Whoa nelly!",
+  "main": "./dist/index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonPenton/update-all-the-things.git"
+  },
+  "keywords": [
+    "update",
+    "npm",
+    "package"
+  ],
+  "author": "Ron Penton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonPenton/update-all-the-things/issues"
+  },
+  "homepage": "https://github.com/RonPenton/update-all-the-things#readme",
+  "dependencies": {
+    "@types/command-line-args": "^4.0.1",
+    "command-line-args": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.34",
+    "typescript": "^2.5.3"
+  }
+}
